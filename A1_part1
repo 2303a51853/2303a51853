@@ -1,0 +1,42 @@
+#chan
+# 1st Question "List"
+mylist = ["apple", "banana", "cherry"]
+print(mylist)
+
+
+#chan
+# 2st Question "Arrays"
+import numpy
+arr_x=numpy.array([1,2,3,4])
+print(arr_x)
+
+#3rd Question Type
+print(type(mylist))
+print(type(arr_x))
+
+# 4th Question
+import numpy
+sine=numpy.sin(numpy.pi/2)
+log=numpy.log(10)
+log2=numpy.log2(10)
+exp=numpy.exp([4,0])
+print(sine)
+print(log)
+print(log2)
+print(exp)
+
+# 5th Question
+num_add_1=numpy.array([1,2,3])
+num_add_2=numpy.array([1,2,3])
+print(numpy.add(num_add_1,num_add_2))
+
+     
+['apple', 'banana', 'cherry']
+[1 2 3 4]
+<class 'list'>
+<class 'numpy.ndarray'>
+1.0
+2.302585092994046
+3.321928094887362
+[54.59815003  1.        ]
+[2 4 6]
